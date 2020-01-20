@@ -24,6 +24,7 @@ export default {
   components: {
     
   },
+ 
   methods: {
             signIn: function () {
                 //サインイン処理
@@ -41,7 +42,8 @@ export default {
                 }
                 )
                 
-            }
+            },
+           
         },
         data() {
             return {
